@@ -1,0 +1,53 @@
+Los operadores lógicos sirven para generar
+flujos en la ejecución del programa, estos
+pueden recibir ya sea un conjunto de variables
+o un conjunto de expresiciones booleanas (relacionales)
+o ambas.
+
+### Operador lógico AND(&&)
+
+Es un operador binario y es infijo.
+Da verdadero cuando ambas expresiones 
+son verdaderas:
+---
+     x | y | x && y
+     --|---|----
+     V | V |  V
+     V | F |  F
+     F | V |  F
+     F | F |  F
+---
+
+### Operador lógico OR (||)
+Es un operador binario y es infijo.
+Este operador da verdadero si por 
+lo menos algunas de las dos expresiones
+es verdadera:
+
+---
+     x | y | x || y
+     --|---|----
+     V | V |   V
+     V | F |   V
+     F | V |   V
+     F | F |   F
+---
+
+### Operador lógico NOT (!)
+
+Es un operador prefijo y es unario.
+Invierde a falso una expresión verdadera
+y viceversa:
+
+
+     | x | !x  |
+     |---|-----|
+     | V |  F  |
+     | F |  V  |
+
+
+
+
+
+
+        
